@@ -27,3 +27,25 @@ Please update this README file as you add new data.
 - Due to a difference between the internal system and a poor design choice (for some reason), the transaction tables use a surrogate key for each new `user_id`.
 - However, the Consumer table has a unique ID (some are missing on purpose) field which will require some form of mapping between `consumer_id` to `user_id`.
 - An additional mapping table has been provided to join the two datasets together.
+
+## SA2 Information and Geometry
+
+- This dataset provides the geometrical boundaries of the Statistical Area Level 2 (SA2) regions in Australia, as defined by the Australian Bureau of Statistics (ABS). It includes detailed shapefiles which represent the spatial boundaries of each SA2 region.
+- Use these shapefiles for mapping and spatial analysis in GIS software (e.g., QGIS, ArcGIS) or for integration into spatial databases.
+
+## SA2 Information and Postcode Lookup Table
+
+- This dataset provides a lookup table that links SA2 regions with postcodes. It is useful for translating postcode information into SA2 regions and vice versa.
+- Use this lookup table to match postcodes with their corresponding SA2 regions for analysis, reporting, and data enrichment purposes.
+
+## Census Dataset - 2021 SA2 Data
+
+- This dataset includes census data aggregated by SA2 regions. The data provides insights into various demographic and socio-economic characteristics, such as population, age distribution, employment, and education levels.
+
+## Regional Population Dataset (2021-22)
+
+- This dataset includes annual population estimates for different regions across Australia, spanning from 2001 to 2022. It provides insights into population changes, distributions, and trends over time.
+
+## Unemployment Rate Dataset
+
+- This dataset provides unemployment rate data for different SA2 regions in Australia. The data is sourced from the Australian Bureau of Statistics (ABS) and includes various unemployment metrics for the year 2021.
