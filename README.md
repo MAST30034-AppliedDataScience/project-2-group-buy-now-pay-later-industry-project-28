@@ -1,10 +1,8 @@
 # Generic Buy Now, Pay Later Project
-Groups should generate their own suitable `README.md`.
 
-Note to groups: Make sure to read the `README.md` located in `./data/README.md` for details.
+**Group Number**: 28
 
-Group Number: 28
-Group Members:
+**Group Members**:
 Member 1: Yule Luo 1346472
 Member 2: Delphine Ding 1353446 
 Member 3: Hongyu He 1313969 
@@ -14,18 +12,21 @@ Member 5: Zhipeng Liu 1403778
 **Research Goal:** Our research goal is to develop a robust ranking system to help a Buy Now, Pay Later (BNPL) firm identify and prioritize the top 100 merchants for onboarding.
 
 **Timeline:** The timeline for the research area is:
-    Consumer timeline: 2021-02-28 to 2022-10-26
-    Transaction timeline: 2021-02-28 to 2022-10-26
-    Merchant timeline: 2021-03-25 to 2022-02-27.
+
+- Consumer timeline: 2021-02-28 to 2022-10-26
+- Transaction timeline: 2021-02-28 to 2022-10-26
+- Merchant timeline: 2021-03-25 to 2022-02-27.
 
 
 To run the pipeline, 
 
-please visit the `scripts` directory and run the files in order:
-0. `0_Download_Data.py`: This downloads the original datasets from websites into the `data/tables` directory. To download the raw data, first navigate to the `project-2-group-buy-now-pay-later-industry-project-28` folder in the terminal. Then, run the following command to save the raw data into the `data/raw` directory. Make sure you are in the `scripts` directory to view this file.
+please visit the `scripts` directory and run the file `0_Download_Data.py`: To download part of the raw data, first navigate to the `project-2-group-buy-now-pay-later-industry-project-28` folder in the terminal. Then, run the following command to save the raw data into the `data/tables` directory. Make sure you are in the `scripts` directory to view this file.
 ```bash
 cd scripts && python 0_Download_Data.py
 ```
+please note: 
+- for the BNPL data: please donwnload data from LMS and drag to corresponding folders in `data/tables`
+- for the unemployment dataset: please visit ABS Data Explorer on the website and click to download
 
 please visit the `notebook` folder and run the files in order:
 1. `01_Preliminary_Analysis.ipynb`: This notebook involves the preliminary analysis on all raw datasets individually.
