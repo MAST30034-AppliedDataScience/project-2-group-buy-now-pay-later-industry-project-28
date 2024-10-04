@@ -44,7 +44,7 @@ Please update this README file as you add new data.
 
 ## Regional Population Dataset (2021-2022)
 
-- This dataset includes annual population estimates for different regions across Australia, spanning from 2001 to 2022. It provides insights into population changes, distributions, and trends over time.
+- This dataset includes annual population estimates for different regions across Australia, spanning from 2021 to 2022. It provides insights into population changes, distributions, and trends over time.
 
 ## Unemployment Rate Dataset
 

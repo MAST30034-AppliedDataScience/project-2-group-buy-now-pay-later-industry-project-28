@@ -22,9 +22,12 @@ Member 5: Zhipeng Liu 1403778
 To run the pipeline, 
 
 please visit the `scripts` directory and run the files in order:
-0. `0_Download_Data.py`: This downloads the original datasets from websites into the `data/tables` directory. Run it once. 
+0. `0_Download_Data.py`: This downloads the original datasets from websites into the `data/tables` directory. To download the raw data, first navigate to the `project-2-group-buy-now-pay-later-industry-project-28` folder in the terminal. Then, run the following command to save the raw data into the `data/raw` directory. Make sure you are in the `scripts` directory to view this file.
+```bash
+cd scripts && python 0_Download_Data.py
+```
 
-please visit the 'notebook' folder and run the files in order:
+please visit the `notebook` folder and run the files in order:
 1. `01_Preliminary_Analysis.ipynb`: This notebook involves the preliminary analysis on all raw datasets individually.
 2. `02_Feature_Engineering.ipynb`: This notebook focuses on creating new features through the aggregation of variables and analyzing missing value information.
 3. `03_Data_Transformation.ipynb`: This notebook involves one-hot encoding for  categorical variables.
