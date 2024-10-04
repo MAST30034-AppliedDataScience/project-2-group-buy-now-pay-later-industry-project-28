@@ -3,11 +3,11 @@
 **Group Number**: 28
 
 **Group Members**:
-Member 1: Yule Luo 1346472
-Member 2: Delphine Ding 1353446 
-Member 3: Hongyu He 1313969 
-Member 4: Mengyue Zhang 1315635 
-Member 5: Zhipeng Liu 1403778
+- Member 1: Yule Luo 1346472
+- Member 2: Delphine Ding 1353446 
+- Member 3: Hongyu He 1313969 
+- Member 4: Mengyue Zhang 1315635 
+- Member 5: Zhipeng Liu 1403778
 
 **Research Goal:** Our research goal is to develop a robust ranking system to help a Buy Now, Pay Later (BNPL) firm identify and prioritize the top 100 merchants for onboarding.
 
