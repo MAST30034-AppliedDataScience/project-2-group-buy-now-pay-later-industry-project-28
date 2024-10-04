@@ -9,7 +9,7 @@
 - Member 4: Mengyue Zhang 1315635 
 - Member 5: Zhipeng Liu 1403778
 
-**Research Goal:** Our research goal is to develop a robust ranking system to help a Buy Now, Pay Later (BNPL) firm identify and prioritize the top 100 merchants for onboarding.
+**Research Goal:** Our research goal is to design a robust ranking system that enables a Buy Now, Pay Later (BNPL) firm to efficiently identify and prioritize the top 100 most reputable and reliable merchants overall, as well as the top 10 merchants within each segment for onboarding.
 
 **Timeline:** The timeline for the research area is:
 
