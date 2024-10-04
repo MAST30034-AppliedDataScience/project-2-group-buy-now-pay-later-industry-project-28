@@ -26,7 +26,7 @@ cd scripts && python 0_Download_Data.py
 ```
 please note: 
 - for the BNPL data: please donwnload data from LMS and drag to corresponding folders in `data/tables`
-- for the unemployment dataset: please visit ABS Data Explorer on the website and click to download
+- for the unemployment dataset: please visit ABS Data Explorer on the website and click to download.
 
 please visit the `notebook` folder and run the files in order:
 1. `01_Preliminary_Analysis.ipynb`: This notebook involves the preliminary analysis on all raw datasets individually.
