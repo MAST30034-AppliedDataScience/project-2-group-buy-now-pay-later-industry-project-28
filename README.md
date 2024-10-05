@@ -11,12 +11,7 @@
 
 **Research Goal:** Our research goal is to design a robust ranking system that enables a Buy Now, Pay Later (BNPL) firm to efficiently identify and prioritize the top 100 most reputable and reliable merchants overall, as well as the top 10 merchants within each segment for onboarding.
 
-**Timeline:** The timeline for the research area is:
-
-- Consumer timeline: 2021-02-28 to 2022-10-26
-- Transaction timeline: 2021-02-28 to 2022-10-26
-- Merchant timeline: 2021-03-25 to 2022-02-27.
-
+**Timeline:** 2021-02-28 to 2022-10-26
 
 To run the pipeline, 
 
@@ -30,13 +25,13 @@ please note:
 - another README in `data` directory provides the general informaiton for all datasets used in this project.
 
 secondly, please visit the `notebook` folder and run the files in order:
-1. `01_Preliminary_Analysis.ipynb`: This notebook involves the preliminary analysis on all raw datasets individually.
+1. `01_Preliminary_Analysis.ipynb`: This notebook involves the preliminary analysis and prepcocessing on all raw datasets individually.
 2. `02_Feature_Engineering.ipynb`: This notebook focuses on creating new features through the aggregation of variables and analyzing missing value information.
-3. `03_Data_Transformation.ipynb`: This notebook involves one-hot encoding for  categorical variables.
-4. `04_Imputation.ipynb`: This notebook impute missing values for consumer/ merchant fraud probability.
+3. `03_Data_Transformation.ipynb`: This notebook involves one-hot encoding for categorical variables.
+4. `04_Imputation.ipynb`: This notebook impute missing values for consumer and merchant fraud probability.
 5. `05_Transaction_Analysis.ipynb`: This notebook is used to conduct analysis on the transaction tables. 
 6. `06_Classificatioon.ipynb`: This notebook is used to split merchants into segments. 
-7. `07_Interesting_Findings`: This notebook is used to find merchants with perticular characteristics.
+7. `07_Interesting_Findings`: This notebook is used to find merchants with particular characteristics.
 8. `08_Modelling.ipynb`: This notebook is used to create Random Forest Classification and Gradient Boosted Trees models to predict whether the transaction is fraud in the future.
 9. `09_Ranking.ipynb`: This notebook is used to create a ranking system to select top merchants. 
 10. `10_Visualisation.ipynb`: This notebook is used to conduct analysis on the curated data. With Visualisations of the distribution of variables and relationships between the variables. 
