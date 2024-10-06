@@ -15,12 +15,12 @@
 
 To run the pipeline, 
 
-firstly, please visit the `scripts` directory and run the file `0_Download_Data.py`: To download part of the raw data, first navigate to the `project-2-group-buy-now-pay-later-industry-project-28` folder in the terminal. Then, run the following command to save the raw data into the `data/tables` directory. Make sure you are in the `scripts` directory to view this file.
+firstly, please visit the `scripts` directory to see the file `0_Download_Data.py`: To download part of the raw data, first navigate to the `project-2-group-buy-now-pay-later-industry-project-28` folder in the terminal. Then, run the following command to save part of the raw data into the `data/tables` directory.
 ```bash
 cd scripts && python 0_Download_Data.py
 ```
 please note: 
-- for the BNPL data: please donwnload data from LMS and drag to corresponding folders in `data/tables`
+- for the BNPL data: please donwnload data from LMS and drag to corresponding folders in `data/tables` directory
 - for the unemployment dataset: please visit ABS Data Explorer on the website and click to download
 - another README in `data` directory provides the general informaiton for all datasets used in this project.
 
