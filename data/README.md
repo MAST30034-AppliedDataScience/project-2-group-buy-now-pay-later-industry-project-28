@@ -1,7 +1,5 @@
-# Data Releases
-All relevant raw data should be placed in the `tables` directory. Excluding ABS (public) data, you can find the rest of the data required on Canvas under the Modules tab.
-
-Please update this README file as you add new data.
+# Raw Data
+All relevant raw data are in the `data/tables` directory.
 
 ## Merchant Data Info
 - Revenue Levels: `(a, b, c, d, e)` represents the level of revenue bands (unknown to groups). `a` denotes the smallest band whilst `e` denotes the highest revenue band.
