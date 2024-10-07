@@ -13,7 +13,7 @@
 
 **Timeline:** 2021-02-28 to 2022-10-26
 
-# To run the pipeline:
+# To Run the Pipeline:
 
 Firstly, please visit the `scripts` directory to see the file `0_Download_Data.py`: To download part of the raw data, first navigate to the `project-2-group-buy-now-pay-later-industry-project-28` folder in the terminal. Then, run the following command to save part of the raw data into the `data/tables` directory.
 ```bash
